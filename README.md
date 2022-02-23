@@ -1,6 +1,6 @@
 # Oenology and oenological materials
-# E-Shop Application - ASP.NET CORE Project
-## Features:
+## E-Shop Application - ASP.NET CORE Project
+### Features:
 * Onion Architecture
 * Contains all CRUD operations
 
