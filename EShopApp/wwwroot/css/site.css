@@ -1,0 +1,497 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+body {
+    background-image: url('https://newyorkwineevents.com/wp-content/uploads/2018/10/rose-3.jpg');
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+    animation: fadeIn .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1;
+}
+
+
+
+fieldset {
+    /*margin-top: -113px;
+    margin-left: 116px;
+    border-color: rgba(3, 11, 85, 0.8);*/
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Century Gothic;
+    text-align: justify;
+}
+
+p {
+    font-family: Century Gothic;
+    color: white;
+}
+
+hr {
+    background-color: white;
+}
+
+h5 {
+    display: inline-block;
+    padding: 10px;
+    text-indent: 80px;
+    /*background: #B9121B;*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.centered {
+    position: absolute;
+    top: 53%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-family: url(./fontawesome/webfonts);
+    font-size: 50px;
+}
+
+.eden {
+    background-color: rgba(254, 188, 198, 0.7);
+    border: double;
+    border-color: white;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: white;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.navbar, .navbar-inverse {
+    background: #FEBCC6 !important;
+    font-size: 18px;
+    background-color: white;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body.wineCard {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', serif;
+}
+
+.product {
+    position: relative;
+    width: 290px;
+    height: 306px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+    .product .imgbox {
+        height: 100%;
+        margin-top: -10px;
+        box-sizing: border-box
+    }
+
+        .product .imgbox img {
+            display: block;
+            width: 80%;
+            margin: 10px auto 0
+        }
+
+.specifies {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fdc4cc;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product:hover .specifies {
+    bottom: 0px;
+    height: 135px;
+}
+
+.specifies h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%;
+    font-family: Century Gothic
+}
+
+    .specifies h2 span {
+        font-size: 15px;
+        color: #ccc;
+        font-weight: normal
+    }
+
+.specifies .price {
+    position: absolute;
+    top: 22px;
+    right: 25px;
+    font-weight: bold;
+    color: white;
+    font-size: 23px;
+    font-family: Century Gothic;
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+
+body.materijali {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background: #ffaab7;
+    overflow: hidden;
+}
+
+.outer {
+    height: 100vw;
+    width: 100vw;
+    margin-left: -574px;
+    margin-top: -110px;
+    position: fixed
+}
+
+.container .mat {
+    position: absolute;
+    border-radius: 100%;
+    top: 50vh;
+    left: 50vw;
+    border: 2px solid #fff;
+    transform: translateY(-50%) translateX(-50%);
+    background-size: 100vw 100vh;
+    background-position: center center;
+    transition: height 0.3s, width 0.3s, opacity 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+    .container.mat:not(.last):hover {
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    }
+
+    .container.mat:hover ~ .image-container {
+        opacity: 0.25;
+    }
+
+.center-container {
+    height: 6rem;
+    width: 6rem;
+    z-index: 22;
+    background-color: #222;
+}
+
+    .center-container:focus {
+        height: 0.1px;
+        width: 0.1px;
+        pointer-events: none;
+    }
+
+        .center-container:focus ~ .container.mat {
+            transform: translateY(50%) translateX(50%) rotate(120deg) scale(0.5);
+            pointer-events: none;
+            opacity: 0 !important;
+        }
+
+.bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    opacity: 1;
+    transition: opacity 0.3s, background 0.3s;
+    background-size: 100vw 100vh;
+    background-position: center center;
+}
+
+.image-container:nth-of-type(1) {
+    z-index: 20;
+    height: 9rem;
+    width: 9rem;
+    background-image: url('/lib/img/stakkleni.JPG');
+    opacity: 1;
+}
+
+    .image-container:nth-of-type(1):hover {
+        height: 10rem;
+        width: 10rem;
+    }
+
+        .image-container:nth-of-type(1):hover ~ .bg {
+            background-image: url('/lib/img/stakkleni.JPG');
+            background-size: 784px 588px;
+            border: none;
+            background-repeat: no-repeat;
+            background-position: left;
+            opacity: 1;
+            margin-left: 897px;
+            border-left: double;
+            margin-top: 28px;
+            border-left-color: white;
+        }
+
+.image-container:nth-of-type(2) {
+    z-index: 19;
+    height: 11rem;
+    width: 11rem;
+    background-image: url('/lib/img/plastichni.JPG');
+    opacity: 1;
+}
+
+    .image-container:nth-of-type(2):hover {
+        height: 12rem;
+        width: 12rem;
+    }
+
+        .image-container:nth-of-type(2):hover ~ .bg {
+            background-image: url('/lib/img/plastichni.JPG');
+            background-size: 784px 588px;
+            border: none;
+            background-repeat: no-repeat;
+            background-position: left;
+            opacity: 1;
+            margin-left: 897px;
+            border-left: double;
+            margin-top: 28px;
+            border-left-color: white;
+        }
+
+.image-container:nth-of-type(3) {
+    z-index: 18;
+    height: 13rem;
+    width: 13rem;
+    background-image: url('/lib/img/pakovki.JPG');
+    opacity: 1;
+}
+
+    .image-container:nth-of-type(3):hover {
+        height: 14rem;
+        width: 14rem;
+    }
+
+        .image-container:nth-of-type(3):hover ~ .bg {
+            background-image: url('/lib/img/pakovki.JPG');
+            background-size: 784px 588px;
+            border: none;
+            background-repeat: no-repeat;
+            background-position: left;
+            opacity: 1;
+            margin-left: 897px;
+            border-left: double;
+            margin-top: 28px;
+            border-left-color: white;
+        }
+
+.image-container:nth-of-type(4) {
+    z-index: 17;
+    height: 15rem;
+    width: 15rem;
+    background-image: url('/lib/img/liquirab.JPG');
+    opacity: 1;
+}
+
+    .image-container:nth-of-type(4):hover {
+        height: 16rem;
+        width: 16rem;
+    }
+
+        .image-container:nth-of-type(4):hover ~ .bg {
+            background-image: url('/lib/img/liquirab.JPG');
+            background-size: 784px 588px;
+            border: none;
+            background-repeat: no-repeat;
+            background-position: left;
+            opacity: 1;
+            margin-left: 897px;
+            border-left: double;
+            margin-top: 28px;
+            border-left-color: white;
+        }
+
+.image-container:nth-of-type(5) {
+    z-index: 16;
+    height: 17rem;
+    width: 17rem;
+    background-image: url('/lib/img/pesticidi.JPG');
+    opacity: 1;
+}
+
+    .image-container:nth-of-type(5):hover {
+        height: 18rem;
+        width: 18rem;
+    }
+
+        .image-container:nth-of-type(5):hover ~ .bg {
+            background-image: url('/lib/img/pesticidi.JPG');
+            background-size: 784px 588px;
+            border: none;
+            background-repeat: no-repeat;
+            background-position: left;
+            opacity: 1;
+            margin-left: 897px;
+            border-left: double;
+            margin-top: 28px;
+            border-left-color: white;
+        }
+
+.image-container:nth-of-type(6) {
+    z-index: 15;
+    height: 19rem;
+    width: 19rem;
+    background-image: url('/lib/img/kapaci.JPG');
+    opacity: 1;
+}
+
+    .image-container:nth-of-type(6):hover {
+        height: 20rem;
+        width: 20rem;
+    }
+
+        .image-container:nth-of-type(6):hover ~ .bg {
+            background-image: url('/lib/img/kapaci.JPG');
+            background-size: 784px 588px;
+            border: none;
+            background-repeat: no-repeat;
+            background-position: left;
+            opacity: 1;
+            margin-left: 897px;
+            border-left: double;
+            margin-top: 28px;
+            border-left-color: white;
+        }
+
+.image-container:nth-of-type(7) {
+    z-index: 14;
+    height: 21rem;
+    width: 21rem;
+    background-image: url('/lib/img/epruveri.JPG');
+    opacity: 1;
+}
+
+    .image-container:nth-of-type(7):hover {
+        height: 22rem;
+        width: 22rem;
+    }
+
+        .image-container:nth-of-type(7):hover ~ .bg {
+            background-image: url('/lib/img/epruveri.JPG');
+            background-size: 784px 588px;
+            border: none;
+            background-repeat: no-repeat;
+            background-position: left;
+            opacity: 1;
+            margin-left: 897px;
+            border-left: double;
+            margin-top: 28px;
+            border-left-color: white;
+        }
+
+.image-container:nth-of-type(8) {
+    z-index: 13;
+    height: 23rem;
+    width: 23rem;
+    background-image: url('/lib/img/filters.JPG');
+    opacity: 1;
+}
+
+    .image-container:nth-of-type(8):hover {
+        height: 24rem;
+        width: 24rem;
+    }
+
+        .image-container:nth-of-type(8):hover ~ .bg {
+            background-image: url('/lib/img/filters.JPG');
+            background-size: 784px 588px;
+            border: none;
+            background-repeat: no-repeat;
+            background-position: left;
+            opacity: 1;
+            margin-left: 897px;
+            border-left: double;
+            margin-top: 28px;
+            border-left-color: white;
+        }

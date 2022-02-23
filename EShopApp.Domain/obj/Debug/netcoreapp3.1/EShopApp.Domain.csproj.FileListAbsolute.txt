@@ -1,0 +1,8 @@
+C:\Users\x\Desktop\EShopApp\EShopApp.Domain\bin\Debug\netcoreapp3.1\EShopApp.Domain.deps.json
+C:\Users\x\Desktop\EShopApp\EShopApp.Domain\bin\Debug\netcoreapp3.1\EShopApp.Domain.dll
+C:\Users\x\Desktop\EShopApp\EShopApp.Domain\bin\Debug\netcoreapp3.1\EShopApp.Domain.pdb
+C:\Users\x\Desktop\EShopApp\EShopApp.Domain\obj\Debug\netcoreapp3.1\EShopApp.Domain.AssemblyInfoInputs.cache
+C:\Users\x\Desktop\EShopApp\EShopApp.Domain\obj\Debug\netcoreapp3.1\EShopApp.Domain.AssemblyInfo.cs
+C:\Users\x\Desktop\EShopApp\EShopApp.Domain\obj\Debug\netcoreapp3.1\EShopApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\x\Desktop\EShopApp\EShopApp.Domain\obj\Debug\netcoreapp3.1\EShopApp.Domain.dll
+C:\Users\x\Desktop\EShopApp\EShopApp.Domain\obj\Debug\netcoreapp3.1\EShopApp.Domain.pdb

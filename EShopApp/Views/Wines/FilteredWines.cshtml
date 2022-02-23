@@ -1,0 +1,65 @@
+﻿@model List<EShopApp.Domain.Wine>
+
+@{
+    ViewData["Title"] = "FilteredWines";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="eden">
+
+    <div class="container">
+
+        <div class="m-3">
+            <a class="btn btn-outline-info" asp-controller="Wines" asp-action="Index">Back</a>
+        </div>
+
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            var item = Model[i];
+
+            if (i % 3 == 0)
+            {
+                @:<div class="row" style="line-height: 0">
+                }
+
+
+                <div class="col-md-3 m-4">
+                    <div class="wrapper">
+                        <div class="product">
+                            <div class="imgbox" style="background-color:white"> <img src="@item.Image"> </div>
+                            <div class="specifies">
+                                <h2>@item.Vinarija<br></h2>
+                                <div class="price">@item.Price МКД.</div>
+                                <br />
+                                <p class="card-text" style="font-family: Century Gothic; margin-top: 15px; font-size: 14px;">Произведено е во</p>
+                                <p class="card-text" style="font-family: Century Gothic; margin-top: 22px; font-size: 14px;">@item.Zemja во <b> @item.Godina</b> год.</p>
+
+                                @if (User.IsInRole("Administrator") || User.IsInRole("User"))
+                                {
+                                    <a asp-controller="Wines" asp-action="AddToShoppingCart" asp-route-id="@item.Id" style="width:121px" class="btn btn-success">Add to Cart</a>
+                                }
+                                @*                                <a asp-controller="Wines" asp-action="Details" asp-route-id="@item.Id" style=" width: 100px; margin-top:7px" class="btn btn-outline-primary">Details</a>
+                                *@
+                                @if (User.IsInRole("Administrator"))
+                                {
+                                    <a style=" font-size: 15px; width: 121px; margin-left:7px" asp-controller="Wines" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Delete</a>
+
+                                }
+                            </div>
+                        </div>
+
+                        @*<div class="img-wrapper">
+
+                            <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/70428/wine-glass-clipart-xl.png" style="width:44px; height:96px" />
+                        </div>*@
+                    </div>
+
+                </div>
+                if (i % 3 == 2)
+                {
+                @:</div>
+            }
+        }
+
+    </div>
+</div>

@@ -1,0 +1,12 @@
+C:\Users\x\Desktop\EShopApp\EShopApp.Repository\bin\Debug\netcoreapp3.1\EShopApp.Repository.deps.json
+C:\Users\x\Desktop\EShopApp\EShopApp.Repository\bin\Debug\netcoreapp3.1\EShopApp.Repository.dll
+C:\Users\x\Desktop\EShopApp\EShopApp.Repository\bin\Debug\netcoreapp3.1\EShopApp.Repository.pdb
+C:\Users\x\Desktop\EShopApp\EShopApp.Repository\bin\Debug\netcoreapp3.1\EShopApp.Domain.dll
+C:\Users\x\Desktop\EShopApp\EShopApp.Repository\bin\Debug\netcoreapp3.1\EShopApp.Domain.pdb
+C:\Users\x\Desktop\EShopApp\EShopApp.Repository\obj\Debug\netcoreapp3.1\EShopApp.Repository.csprojAssemblyReference.cache
+C:\Users\x\Desktop\EShopApp\EShopApp.Repository\obj\Debug\netcoreapp3.1\EShopApp.Repository.AssemblyInfoInputs.cache
+C:\Users\x\Desktop\EShopApp\EShopApp.Repository\obj\Debug\netcoreapp3.1\EShopApp.Repository.AssemblyInfo.cs
+C:\Users\x\Desktop\EShopApp\EShopApp.Repository\obj\Debug\netcoreapp3.1\EShopApp.Repository.csproj.CoreCompileInputs.cache
+C:\Users\x\Desktop\EShopApp\EShopApp.Repository\obj\Debug\netcoreapp3.1\EShopApp.Repository.csproj.CopyComplete
+C:\Users\x\Desktop\EShopApp\EShopApp.Repository\obj\Debug\netcoreapp3.1\EShopApp.Repository.dll
+C:\Users\x\Desktop\EShopApp\EShopApp.Repository\obj\Debug\netcoreapp3.1\EShopApp.Repository.pdb

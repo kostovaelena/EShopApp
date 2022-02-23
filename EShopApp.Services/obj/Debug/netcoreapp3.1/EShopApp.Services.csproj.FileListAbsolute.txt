@@ -1,0 +1,14 @@
+C:\Users\x\Desktop\EShopApp\EShopApp.Services\bin\Debug\netcoreapp3.1\EShopApp.Services.deps.json
+C:\Users\x\Desktop\EShopApp\EShopApp.Services\bin\Debug\netcoreapp3.1\EShopApp.Services.dll
+C:\Users\x\Desktop\EShopApp\EShopApp.Services\bin\Debug\netcoreapp3.1\EShopApp.Services.pdb
+C:\Users\x\Desktop\EShopApp\EShopApp.Services\bin\Debug\netcoreapp3.1\EShopApp.Domain.dll
+C:\Users\x\Desktop\EShopApp\EShopApp.Services\bin\Debug\netcoreapp3.1\EShopApp.Repository.dll
+C:\Users\x\Desktop\EShopApp\EShopApp.Services\bin\Debug\netcoreapp3.1\EShopApp.Domain.pdb
+C:\Users\x\Desktop\EShopApp\EShopApp.Services\bin\Debug\netcoreapp3.1\EShopApp.Repository.pdb
+C:\Users\x\Desktop\EShopApp\EShopApp.Services\obj\Debug\netcoreapp3.1\EShopApp.Services.csprojAssemblyReference.cache
+C:\Users\x\Desktop\EShopApp\EShopApp.Services\obj\Debug\netcoreapp3.1\EShopApp.Services.AssemblyInfoInputs.cache
+C:\Users\x\Desktop\EShopApp\EShopApp.Services\obj\Debug\netcoreapp3.1\EShopApp.Services.AssemblyInfo.cs
+C:\Users\x\Desktop\EShopApp\EShopApp.Services\obj\Debug\netcoreapp3.1\EShopApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\x\Desktop\EShopApp\EShopApp.Services\obj\Debug\netcoreapp3.1\EShopApp.Services.csproj.CopyComplete
+C:\Users\x\Desktop\EShopApp\EShopApp.Services\obj\Debug\netcoreapp3.1\EShopApp.Services.dll
+C:\Users\x\Desktop\EShopApp\EShopApp.Services\obj\Debug\netcoreapp3.1\EShopApp.Services.pdb

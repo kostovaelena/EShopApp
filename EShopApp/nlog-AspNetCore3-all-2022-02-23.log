@@ -1,0 +1,16 @@
+2022-02-23 04:33:12.5444|0|DEBUG|EShopApp.Program|init main 
+2022-02-23 04:33:16.9935|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-23 04:33:16.9935|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-23 04:33:16.9935|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\x\Desktop\EShopApp\EShopApp 
+2022-02-23 04:33:26.2008|0|INFO|EShopApp.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-23 04:33:40.7711|0|INFO|EShopApp.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-23 04:33:40.7823|0|INFO|EShopApp.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-23 04:35:18.0054|0|INFO|EShopApp.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-23 04:35:22.2038|0|INFO|EShopApp.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-23 04:36:45.8956|0|DEBUG|EShopApp.Program|init main 
+2022-02-23 04:36:52.2748|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-23 04:36:52.2748|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-23 04:36:52.2748|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\x\Desktop\EShopApp\EShopApp 
+2022-02-23 04:37:01.7861|0|INFO|EShopApp.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-23 04:37:12.2273|0|INFO|EShopApp.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-23 04:37:12.2273|0|INFO|EShopApp.Services.Implementation.ProductService|GetAllProducts was called! 

@@ -1,0 +1,48 @@
+﻿
+@model EShopApp.Domain.Order
+<div class="eden" style="color:#fe87a7;">
+
+    <div class="container">
+
+        <p style="margin-left:500px">
+            <a class="btn btn-outline-light">@Model.User.UserName</a>
+        </p>
+
+        @for (int i = 0; i < Model.WineInOrders.Count(); i++)
+        {
+            var item = Model.WineInOrders.ElementAt(i).OrderedWine;
+
+            if (i % 3 == 0)
+            {
+    @:<div class="row" style="line-height: 0; color:white">
+    }
+
+    <div class="col-md-3 m-4">
+        <div class="wrapper">
+            <div class="product">
+                <div class="imgbox" style="background-color:white"> <img src="@item.Image"> </div>
+                <div class="specifies">
+                    <h2 style="color: white">@item.Vinarija<br></h2>
+                    <div class="price">@item.Price МКД.</div>
+                    <br />
+                    <p style="font-family: Century Gothic; margin-top: 15px; font-size: 14px; color:white">Произведено е во</p>
+                    <p style="font-family: Century Gothic; margin-top: 22px; font-size: 14px; color:white">@item.Zemja во <b> @item.Godina</b> год.</p>
+
+                  
+                </div>
+            </div>
+
+            @*<div class="img-wrapper">
+
+                <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/70428/wine-glass-clipart-xl.png" style="width:44px; height:96px" />
+            </div>*@
+        </div>
+
+    </div> if (i % 3 == 2)
+                    {
+    @:</div>
+}
+
+}
+    </div>
+</div>

@@ -1,0 +1,46 @@
+﻿
+@model List<EShopApp.Domain.Order>
+
+<div class="eden" style="" >
+
+    <div class="container">
+
+        <h1 style="text-align: center; color:white"><i>Вашите нарачки</i></h1>
+        <br />
+
+        <table class="table mt-5" style="color: white; font-size: 22px; ">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col" style="color: #fe87a7">#</th>
+                    <th scope="col" style="color: #fe87a7">Costumer Details</th>
+                    <th scope="col" style="color: #fe87a7">Number of products</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    var item = Model[i];
+
+    <tr>
+        <th scope="row">@(i+1)</th>
+        <td>@item.User.Email</td>
+        <td>@item.WineInOrders.Count()</td>
+        <td><a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Детали</a></td>
+        <td><a class="btn btn-info" asp-action="CreateInvoice" asp-route-id="@item.Id">Download as PDF</a></td>
+    </tr>
+   }
+            </tbody>
+
+
+        </table>
+        @if (User.IsInRole("Administrator"))
+        {
+    <div class="row" style=" margin-left: 452px;">
+        <a style="font-size: 27px;" class="btn btn-outline-success" asp-controller="Order" asp-action="ExportAllOrders">Export Orders</a>
+    </div>}
+        <br />
+
+    </div>
+</div>
